@@ -1,0 +1,7 @@
+@layer layouts {
+  @container (min-width: 768px) {
+    .container {
+      padding: 2rem;
+    }
+  }
+}

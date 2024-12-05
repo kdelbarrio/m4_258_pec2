@@ -12,31 +12,31 @@
         
         <include src="./views/header.html"></include>
 
-        <main>
+        <main class="main">
             <div class="poster">
-                <h1>Jornadas de Seguridad Informática 2024</h1>
+                <h1 class="poster__title">Jornadas de Seguridad Informática 2024</h1>
+                <div class="poster__description mt-4">
+                    <h2>Descubre las últimas tendencias en ciberseguridad</h2>
+                    <p>Únete a nosotros en estas emocionantes jornadas donde expertos de la industria compartirán sus conocimientos sobre las amenazas cibernéticas más recientes y las mejores prácticas para proteger tu información.</p>
+                    <p>Además, hemos preparado un concurso de programación orientado a la seguridad informática.</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="./participantes.html" class="btn btn-primary" role="button">Ponentes</a></li>
+                        <li class="list-inline-item"><a href="./informacion.html" class="btn btn-primary" role="button">Concurso</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="mt-4">
-                <h2>Descubre las últimas tendencias en ciberseguridad</h2>
-                <p>Únete a nosotros en estas emocionantes jornadas donde expertos de la industria compartirán sus conocimientos sobre las amenazas cibernéticas más recientes y las mejores prácticas para proteger tu información.</p>
-                <p>Además, hemos preparado un concurso de programación orientado a la seguridad informática.</p>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="#" class="btn btn-primary" role="button">Programa</a></li>
-                    <li class="list-inline-item"><a href="#" class="btn btn-primary" role="button">Ponentes</a></li>
-                    <li class="list-inline-item"><a href="#" class="btn btn-primary" role="button">Concurso</a></li>
-                </ul>
-            </div>
+
         </main>
 
-        <aside>
-            <h3>Dirigido a:</h3>
-            <ul class="list-group">
-                <li class="list-group-item">Desarrolladores</li>
-                <li class="list-group-item">Responsables TICs</li>
-                <li class="list-group-item">Analistas de ciberseguridad</li>
-                <li class="list-group-item">Auditores de seguridad</li>
+        <aside class="aside">
+            <h3 class="aside__title">Dirigido a:</h3>
+            <ul class="aside__list">
+                <li class="aside__list__item">Desarrolladores</li>
+                <li class="aside__list__item">Responsables TICs</li>
+                <li class="aside__list__item">Analistas de ciberseguridad</li>
+                <li class="aside__list__item">Auditores de seguridad</li>
             </ul>
-            <p><a class="btn btn-primary" role="button" href="register.html">Inscríbete</a></p>
+            <a class="aside__button" role="button" href="formulario.html">Haz tu inscripción</a>
         </aside>
 
         <include src="./views/footer.html"></include>

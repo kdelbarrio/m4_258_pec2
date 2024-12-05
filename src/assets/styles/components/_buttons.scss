@@ -1,0 +1,22 @@
+@layer components {
+    .button {
+      display: block;
+      padding: 0.5rem 1rem;
+      background: $secondary-color;
+      color: $text-color;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none !important;
+      text-transform: uppercase;
+      font-size:1.2em;
+      font-weight: 600;
+  
+      &:hover {
+        background: darken($secondary-color, 10%);
+      }
+  
+    }
+  }
+  

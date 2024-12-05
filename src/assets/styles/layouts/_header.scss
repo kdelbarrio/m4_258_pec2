@@ -1,0 +1,29 @@
+@layer layouts {
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+}  
+  .header {
+      background: $primary-color;
+      padding: $spacing-unit;
+      text-align: center;
+      color: white;
+  
+      &__title {
+        font-size: 2.5rem;
+      }
+  
+      &__nav {
+        margin-top: $spacing-unit;
+        
+        .nav__link {
+          margin: 0 $spacing-unit;
+          color: white;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
