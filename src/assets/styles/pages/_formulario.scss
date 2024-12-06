@@ -2,10 +2,10 @@
   .formulario {
     padding: 2em;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 4vw auto;
     background-color: color(display-p3 0.27 0.61 0.88);
     border-radius: 1vh;
-    box-shadow: 0 4lv 8lv hsla(120, 50%, 50%, 0.2);
+    box-shadow: 0 .1vh .5vh hsla(120, 7%, 97%, 0.966);
 
     &__title {
       margin-bottom: 1.5vh;
@@ -13,27 +13,7 @@
 
     &__form {
       margin: 6vh 0;
+
     }
-
-    &__button {
-      display: block;
-      text-align: left;
-    }
-
-    &__input, &__textarea, &__select {
-      padding: 1sv;
-      border: 1px solid hwb(200 40% 30%);
-      border-radius: 0.5lv;
-      font-size: 1.25lv;
-      background-color: hwb(240 15% 85%);
-      color: hwb(0 0% 0%);
-      outline: none;
-      transition: border-color 0.3s ease;
-
-      &:focus {
-        border-color: hwb(200 30% 10%);
-      }
-    }
-
   }
 }

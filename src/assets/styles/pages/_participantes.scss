@@ -1,15 +1,15 @@
 @layer pages {
   .participants {
+    max-width: $breakpoint-lg;
     padding: 2rem;
-    text-align: center;
-
+    margin: 2em auto;
+ 
     &__title {
-      font-size: 2rem;
-      color: $primary-color;
-      margin-bottom: 2rem;
+      text-align: center;
     }
 
     &__grid {
+      margin-top:2em;
       display: flex;
       flex-wrap: wrap;
       gap: 2rem;

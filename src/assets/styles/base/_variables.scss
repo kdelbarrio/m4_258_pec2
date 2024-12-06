@@ -18,6 +18,41 @@ $breakpoint-lg: 992px;
 /* Espaciado */
 $spacing-unit: 1rem;
 
+/* Funcion border-color */
+@function border-color($base-color, $opacity: 1, $lighten: 0, $darken: 0) {
+  $color: $base-color;
+
+  // Aplica un lighten si es necesario
+  @if $lighten > 0 {
+    $color: lighten($color, $lighten);
+  }
+
+  // Aplica un darken si es necesario
+  @if $darken > 0 {
+    $color: darken($color, $darken);
+  }
+
+  // Ajusta la opacidad si se especifica
+  @if $opacity < 1 {
+    $color: rgba($color, $opacity);
+  }
+
+  @return $color;
+}
+
+/* Bootstrap customize */
 $theme-colors: (
- "primary": #029ee6 // pon el código de color que prefieras
+ "primary": #029ee6 
 );
+
+$navbar-dark-color: #ade0f8; // Color del texto genérico
+$navbar-dark-hover-color: lighten(#029ee6, 10%);
+
+.navbar-dark .nav-link {
+  color: $navbar-dark-color !important;
+}
+
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  color: $navbar-dark-hover-color !important;
+}

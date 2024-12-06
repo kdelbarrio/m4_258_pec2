@@ -3,7 +3,7 @@
     font-size: 24px;
     font-weight: bold;
 }  
-  .header {
+  .headerSec {
       background: $primary-color;
       padding: $spacing-unit;
       text-align: center;
@@ -13,17 +13,6 @@
         font-size: 2.5rem;
       }
   
-      &__nav {
-        margin-top: $spacing-unit;
-        
-        .nav__link {
-          margin: 0 $spacing-unit;
-          color: white;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
     }
   }
   
