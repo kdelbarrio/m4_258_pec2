@@ -1,16 +1,12 @@
 @layer layouts {
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-}  
   .header {
       padding: $spacing-unit;
       color: white;
       text-align: center;
       background: $primary-color;
   
-      &__title {
-        font-size: 2.5rem;
+      &__nav__title {
+        font-size: 1.5rem !important;
       }
   
     }
