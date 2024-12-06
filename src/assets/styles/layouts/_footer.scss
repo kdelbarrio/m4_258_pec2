@@ -1,9 +1,8 @@
 @layer layouts {
-    .footerSec {
-      background: #494a4a;
+    .footer {
       padding: $spacing-unit;
       color: white;
-      
+      background: #494a4a;
   
       &__text {
         font-size: 0.875rem;

@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .grid-container {
     display: grid;
     grid-template-areas:
@@ -23,9 +25,10 @@ aside {
     grid-area: aside;
 }
 .aside {
-    padding: 2*$spacing-unit;
+    padding: 2 * $spacing-unit;
     margin: 0 1em;
-    background-color: darken($primary-color, 40%);
+    background-color: #00131c;
+
     &__title {
         font-size: 1.5em;
     }
@@ -37,7 +40,7 @@ aside {
         font-size: 1.1em;
     }
     &__button {
-      @extend .button;
+        @extend %button;
     }
 
 }
@@ -70,8 +73,7 @@ footer {
 
   @media (min-width: $breakpoint-md) {
       .grid-container {
-          flex-direction: row;
-          flex-wrap: wrap;
+          flex-flow: column wrap;
       }
 
       header, footer {
