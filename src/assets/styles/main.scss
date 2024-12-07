@@ -11,8 +11,8 @@
  @import "npm:@fortawesome/fontawesome-free/css/all.css";
  
  // Import all of Bootstrap's CSS
- //@import "bootstrap/scss/bootstrap";
  @import "bootstrap/scss/bootstrap";
+
 
  // @import "some-node-module";
 // @import "@some-company/some-node-module";
@@ -20,7 +20,7 @@
 /* ======================================
    Declaración de orden de las capas
 ====================================== */
-@layer reset, base, layouts, components, pages;
+@layer  reset, base, layouts, components, pages;
 
 /* ======================================
    Importaciones de estilos base
@@ -33,8 +33,6 @@
 /* ======================================
    Importaciones de estilos de layout
 ====================================== */
-@import "layouts/container-queries";
-@import "layouts/grid";
 @import "layouts/header";
 @import "layouts/footer";
 
@@ -43,7 +41,6 @@
    Importaciones de componentes
 ====================================== */
 @import "components/buttons";
-@import "components/forms";
 @import "components/cards";
 @import "components/poster";
 @import "components/article";
@@ -56,6 +53,7 @@
 @import "pages/participantes";
 @import "pages/informacion";
 @import "pages/formulario";
+
 
 
 /**
