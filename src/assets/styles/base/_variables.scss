@@ -25,17 +25,9 @@ $spacing-unit: 1rem;
 
 /* Bootstrap customize */
 $theme-colors: (
- "primary": #029ee6 
+ "primary": #029ee6,
+ "secondary": #7c7d7e  
 );
 
-$navbar-dark-color: #ade0f8; // Color del texto navbar
-$navbar-dark-hover-color: #f0f5f7;
-/*
-.navbar-dark .nav-link {
-  color: $navbar-dark-color !important;
-}
-
-.navbar-dark .nav-link:hover,
-.navbar-dark .nav-link:focus {
-  color: $navbar-dark-hover-color !important;
-}*/
+$navbar-dark-color: #ffffff; // Color del texto navbar
+$navbar-dark-hover-color: #010b0f;

@@ -8,6 +8,17 @@
       &__name__text {
         font-size: 0.875rem;
       }
+
+      &__social__list__item {
+        display: inline;
+        padding: 0 .5em;
+        
+        a {
+          text-decoration: none !important;
+          color: #FFF !important;
+
+        }
+      }
     }
   }
   

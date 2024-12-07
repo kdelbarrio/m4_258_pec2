@@ -10,8 +10,8 @@
  */
  @import "npm:@fortawesome/fontawesome-free/css/all.css";
  
- // Import all of Bootstrap's CSS
- @import "bootstrap/scss/bootstrap";
+
+
 
 
  // @import "some-node-module";
@@ -54,7 +54,8 @@
 @import "pages/informacion";
 @import "pages/formulario";
 
-
+ // Import all of Bootstrap's CSS
+ @import "bootstrap/scss/bootstrap";
 
 /**
  * Do NOT include anything else in this file!
