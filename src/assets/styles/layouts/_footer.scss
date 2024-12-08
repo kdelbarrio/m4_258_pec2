@@ -1,9 +1,9 @@
 @layer layouts {
     .footer {
       padding: $spacing-unit;
+      margin-top: 2em;
       color: white;
       background: #494a4a;
-      margin-top: 2em;
   
       &__name__text {
         font-size: 0.875rem;
@@ -14,9 +14,8 @@
         padding: 0 .5em;
         
         a {
-          text-decoration: none !important;
           color: #FFF !important;
-
+          text-decoration: none !important;
         }
       }
     }
