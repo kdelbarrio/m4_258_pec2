@@ -4,13 +4,11 @@
       place-items: center;
       padding: 1rem;
       background: url('../images/security-poster.jpg') no-repeat center/cover;
-
   
       &__title {
         padding: $spacing-unit;
         font-size: 3rem;
         text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-
       }
 
       &__description {
@@ -18,7 +16,6 @@
         margin-top:4em;
         background-color: #00000090;
         border-radius: 8px;
-
       }
 
       @media (min-width: $breakpoint-md){
